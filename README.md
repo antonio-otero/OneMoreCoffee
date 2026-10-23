@@ -25,7 +25,7 @@ y aplicarlo además da error. Safe Args es `androidx.navigation.safeargs.kotlin`
 del bloque `plugins` del módulo.
 
 Si tu Android Studio genera proyectos con otro AGP, cambia la línea `agp` del catálogo por la
-tuya y ajusta Navigation según la tabla del guion (§1.4).
+tuya y ajusta Navigation
 
 ## Qué está comprobado y qué no
 
