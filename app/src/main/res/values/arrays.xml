@@ -1,0 +1,26 @@
+<resources>
+    <!-- O orde importa: a posición de cada opción decide a recomendación e a imaxe -->
+    <string-array name="tipos_cafe">
+        <item>Algo intenso</item>
+        <item>Algo suave e doce</item>
+        <item>Algo frío</item>
+        <item>Sorpréndeme</item>
+    </string-array>
+
+    <!-- Mesmo orde ca tipos_cafe -->
+    <string-array name="descricions_tipo">
+        <item>Curto, concentrado e con carácter.</item>
+        <item>Con leite, escuma e un punto doce.</item>
+        <item>Con xeo, para os días de calor.</item>
+        <item>Déixate levar: o de sempre nunca falla.</item>
+    </string-array>
+
+    <string-array name="curiosidades">
+        <item>Un grao de café é a semente dun froito vermello, a cereixa do café.</item>
+        <item>Brasil é o maior produtor de café do mundo.</item>
+        <item>A arábica ten máis ou menos a metade de cafeína ca robusta.</item>
+        <item>O cold brew infúndese en frío entre 12 e 24 horas.</item>
+        <item>O capuchino toma o nome da cor do hábito dos frades capuchinos.</item>
+        <item>A primeira máquina de espresso patentouse en Italia a comezos do século XX.</item>
+    </string-array>
+</resources>

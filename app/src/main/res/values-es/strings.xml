@@ -1,0 +1,35 @@
+<resources>
+    <string name="pregunta">¿Qué te apetece?</string>
+    <string name="titulo_resultado">Recomendaciones</string>
+    <string name="titulo_detalle">Tu café</string>
+    <string name="foto_cafe">Foto del café</string>
+    <string name="sabias_que">¿Sabías que…?</string>
+
+    <plurals name="recomendacions">
+        <item quantity="one">%1$d recomendación para «%2$s»</item>
+        <item quantity="other">%1$d recomendaciones para «%2$s»</item>
+    </plurals>
+
+    <string-array name="tipos_cafe">
+        <item>Algo intenso</item>
+        <item>Algo suave y dulce</item>
+        <item>Algo frío</item>
+        <item>Sorpréndeme</item>
+    </string-array>
+
+    <string-array name="descricions_tipo">
+        <item>Corto, concentrado y con carácter.</item>
+        <item>Con leche, espuma y un punto dulce.</item>
+        <item>Con hielo, para los días de calor.</item>
+        <item>Déjate llevar: lo de siempre nunca falla.</item>
+    </string-array>
+
+    <string-array name="curiosidades">
+        <item>Un grano de café es la semilla de un fruto rojo, la cereza del café.</item>
+        <item>Brasil es el mayor productor de café del mundo.</item>
+        <item>El arábica tiene más o menos la mitad de cafeína que el robusta.</item>
+        <item>El cold brew se infusiona en frío entre 12 y 24 horas.</item>
+        <item>El capuchino toma su nombre del color del hábito de los frailes capuchinos.</item>
+        <item>La primera máquina de espresso se patentó en Italia a comienzos del siglo XX.</item>
+    </string-array>
+</resources>

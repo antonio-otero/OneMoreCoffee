@@ -1,0 +1,10 @@
+<resources>
+    <color name="cabeceira_fondo">#FFFFF3E0</color>
+    <color name="cabeceira_texto">#FF4E342E</color>
+
+    <color name="cor_principal">#FF4E342E</color>
+    <color name="cor_sobre_principal">#FFFFF3E0</color>
+    <color name="cor_secundaria">#FFC68B59</color>
+
+    <color name="icona_fondo">#FFFFF3E0</color>
+</resources>

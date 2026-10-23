@@ -1,0 +1,7 @@
+<resources>
+    <color name="cabeceira_fondo">#FF3E2723</color>
+    <color name="cabeceira_texto">#FFFFF3E0</color>
+
+    <color name="cor_principal">#FFD7B899</color>
+    <color name="cor_sobre_principal">#FF3E2723</color>
+</resources>

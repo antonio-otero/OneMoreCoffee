@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Primer plano do icona adaptativo: unha cunca vista desde arriba, dentro da zona segura (66dp) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path android:fillColor="#FFFFFFFF" android:strokeColor="#FF4E342E" android:strokeWidth="2"
+        android:pathData="M54,25a29,29 0,1 1,0 58a29,29 0,1 1,0 -58z" />
+    <path android:fillColor="#FFFFFFFF" android:strokeColor="#FF4E342E" android:strokeWidth="2.5"
+        android:pathData="M54,36a18,18 0,1 1,0 36a18,18 0,1 1,0 -36z" />
+    <path android:fillColor="#FF4E342E"
+        android:pathData="M54,40a14,14 0,1 1,0 28a14,14 0,1 1,0 -28z" />
+    <path android:fillColor="#FFC68B59"
+        android:pathData="M50,50a4,4 0,1 1,8 0a4,4 0,1 1,-8 0z" />
+    <path android:fillColor="#FFFFFFFF" android:strokeColor="#FF4E342E" android:strokeWidth="2.5"
+        android:pathData="M71,49h7a5,5 0,0 1,0 10h-7z" />
+</vector>
