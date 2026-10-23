@@ -37,38 +37,4 @@ Comprobado fuera de Android Studio:
   nombres de recurso son válidos.
 - Los XML están bien formados.
 
-**No comprobado:** no se ha pasado Gradle ni se ha ejecutado en un emulador, porque el entorno
-donde se generó no tiene acceso a los repositorios de Google. Si el *Sync* o el *Assemble*
-fallan, el primer sospechoso son las versiones del catálogo.
 
-## Lista de prueba
-
-- [ ] Arranca en la selección, con título en la barra y **sin** flecha.
-- [ ] Cambiar el tipo cambia la imagen de cabecera sin pulsar nada.
-- [ ] «Recoméndame» desliza a la lista del tipo elegido, con su imagen en la banda.
-- [ ] «Sorpréndeme» da una sola recomendación (singular en la cabecera).
-- [ ] Pulsar un café abre su ficha: foto, nombre, estrellas y descripción.
-- [ ] Girar en la ficha: foto a la izquierda, texto a la derecha.
-- [ ] La flecha de la barra se ve clara sobre el marrón y hace lo mismo que el «atrás» del sistema.
-- [ ] Las filas de la lista llevan icono y `›`; abajo, una curiosidad que cambia al volver a entrar.
-- [ ] Bajo el desplegable, la descripción cambia con el tipo.
-- [ ] Girar en la lista o en la ficha no pierde el tipo ni el café.
-- [ ] Modo oscuro: barra, botones y cabecera cambian de color.
-- [ ] Con el emulador en castellano, los textos salen en castellano.
-
-## Las imágenes
-
-Las de `app/src/main/res/drawable-nodpi/` son **provisionales**: ilustraciones sencillas, sin
-texto, con el nombre y el tamaño de la tabla del anexo del guion (§8). Para cambiarlas por las
-definitivas, sustituye cada archivo por otro **con el mismo nombre**, en WebP, y haz
-**Build → Clean Project** y **Build → Assemble Project**.
-
-## Diferencias con el guion
-
-- **El icono** está hecho a mano como vector (`drawable/ic_launcher_foreground.xml`) en lugar de
-  con *Image Asset Studio*, para no depender de una imagen. Los PNG de `mipmap-*dpi` son la
-  reserva para API 24 y 25. En clase se hace con *Image Asset Studio* (§3.5).
-- **Sin fuente propia**: en el guion es opcional.
-- `values-es/` trae la traducción al castellano; los textos por omisión están en gallego.
-- `tvTitulo` sigue en `fragment_seleccion.xml`, aunque el título ya sale en la barra:
-  el guion deja su borrado como pregunta para el grupo (§4.6).
