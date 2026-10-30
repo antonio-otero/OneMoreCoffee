@@ -27,14 +27,4 @@ del bloque `plugins` del módulo.
 Si tu Android Studio genera proyectos con otro AGP, cambia la línea `agp` del catálogo por la
 tuya y ajusta Navigation
 
-## Qué está comprobado y qué no
-
-Comprobado fuera de Android Studio:
-
-- Todo el Kotlin compila con `kotlinc` 2.4.21 contra el binding, la clase `R` y las clases de
-  Safe Args **generados a partir de los XML de este mismo proyecto**.
-- Todas las referencias `@string`, `@color`, `@drawable`, `@anim`… de los XML existen, y los
-  nombres de recurso son válidos.
-- Los XML están bien formados.
-
 
