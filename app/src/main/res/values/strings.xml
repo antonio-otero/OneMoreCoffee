@@ -3,12 +3,13 @@
     <string name="titulo">One More Coffee</string>
     <string name="pregunta">Que che apetece?</string>
     <string name="recomendar">Recoméndame</string>
-    <string name="sabias_que">Sabías que…?</string>
+    <string name="ao_chou">Ao chou</string>
 
     <string name="titulo_seleccion">One More Coffee</string>
     <string name="titulo_resultado">Recomendacións</string>
     <string name="titulo_detalle">O teu café</string>
     <string name="foto_cafe">Foto do café</string>
+    <string name="sabias_que">Sabías que…?</string>
 
     <plurals name="recomendacions">
         <item quantity="one">%1$d recomendación para «%2$s»</item>

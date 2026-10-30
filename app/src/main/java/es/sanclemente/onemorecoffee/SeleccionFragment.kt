@@ -38,11 +38,17 @@ class SeleccionFragment : Fragment() {
         }
 
         binding.btnRecomendar.setOnClickListener {
-            val accion = SeleccionFragmentDirections.accionSeleccionAResultado(
-                tipo = binding.spTipoCafe.selectedItemPosition
-            )
-            findNavController().navigate(accion)
+            irAoResultado(binding.spTipoCafe.selectedItemPosition)
         }
+
+        binding.btnAoChou.setOnClickListener {
+            irAoResultado(resources.getStringArray(R.array.tipos_cafe).indices.random())
+        }
+    }
+
+    private fun irAoResultado(tipo: Int) {
+        val accion = SeleccionFragmentDirections.accionSeleccionAResultado(tipo)
+        findNavController().navigate(accion)
     }
 
     override fun onDestroyView() {

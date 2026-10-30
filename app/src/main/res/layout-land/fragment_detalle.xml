@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -21,7 +22,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/guiaFoto" />
+        app:layout_constraintEnd_toStartOf="@id/guiaFoto"
+        tools:src="@drawable/cafe_ristretto" />
 
     <TextView
         android:id="@+id/tvNome"
@@ -32,7 +34,8 @@
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toEndOf="@id/guiaFoto"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Espresso doble ristretto" />
 
     <RatingBar
         android:id="@+id/rbIntensidade"
@@ -45,7 +48,8 @@
         android:stepSize="1"
         android:progressTint="@color/cor_secundaria"
         app:layout_constraintTop_toBottomOf="@id/tvNome"
-        app:layout_constraintStart_toEndOf="@id/guiaFoto" />
+        app:layout_constraintStart_toEndOf="@id/guiaFoto"
+        tools:rating="5" />
 
     <TextView
         android:id="@+id/tvDescricion"
@@ -55,6 +59,7 @@
         android:textSize="16sp"
         app:layout_constraintTop_toBottomOf="@id/rbIntensidade"
         app:layout_constraintStart_toEndOf="@id/guiaFoto"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Extracción curta e concentrada." />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

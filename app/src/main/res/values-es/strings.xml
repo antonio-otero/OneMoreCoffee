@@ -1,4 +1,5 @@
 <resources>
+    <string name="ao_chou">Al azar</string>
     <string name="pregunta">¿Qué te apetece?</string>
     <string name="titulo_resultado">Recomendaciones</string>
     <string name="titulo_detalle">Tu café</string>
